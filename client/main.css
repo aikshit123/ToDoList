@@ -1,0 +1,119 @@
+
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg, #ff6b6b, #f0e68c);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.itemAddition {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.writeTasks input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 600px;
+    /* Include padding and border widths in total width */
+}
+
+.writeTasks button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.writeTasks button:hover {
+    background-color: #45a049;
+}
+
+.todo-item {
+    /* border: 1px solid black; */
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+#todoList{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 800px;
+}
+
+.bullet {
+    margin-right: 8px;
+    /* Add spacing between bullet point and text */
+    font-size: 16px;
+    /* Adjust bullet point size */
+    color: black;
+    /* Customize bullet point color */
+}
+
+.class1 {
+    margin-top: 20px;
+    color: red;
+    /* Change text color to blue */
+    font-size: 18px;
+    /* Set font size to 18 pixels */
+    font-weight: bold;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for edit button */
+.edit-button {
+    height : 40px;
+    width : 60px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 1px;
+}
+
+/* Styling for delete button */
+.delete-button {
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.todo-box {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+
